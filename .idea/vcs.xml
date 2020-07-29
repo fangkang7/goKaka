@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/Shopify/goreferrer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/aymerick/raymond" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/chris-ramon/douceur" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/cpuguy83/go-md2man" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/derekparker/delve" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/eknkc/amber" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/fatih/structs" vcs="Git" />
@@ -30,6 +31,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/ryanuber/columnize" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/schollz/closestmatch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/shurcooL/sanitized_anchor_name" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/urfave/cli" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/msgpack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/vmihailenco/tagparser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/golang.org/x/crypto" vcs="Git" />
