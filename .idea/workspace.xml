@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef50c6dd-80d8-4e04-b4a0-da3db062cda4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/kataras/iris" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/kataras/iris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/kataras/iris/_examples/routing/hello-world/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/kataras/iris/_examples/routing/hello-world/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/logger/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/logger/constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/logger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/logger/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/logger/log_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/logger/log_interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/test/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,64 +65,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gokaka" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn/listen5/4.使用bufio读取带空格的字符/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gokaka" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn/listen5/5.命令行参数处理/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gokaka" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn/listen4结构体/2.结构体指针/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gokaka" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/learn/test/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewConsoleLogger in learn/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gokaka" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn/listen4结构体/3.匿名字段和嵌套/main.go" />
+      <working_directory value="$PROJECT_DIR$/src/learn/logger" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn/logger" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestNewConsoleLogger$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNewFileLogger in learn/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokaka" />
+      <working_directory value="$PROJECT_DIR$/src/learn/logger" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn/logger" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestNewFileLogger$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokaka" />
+      <working_directory value="$PROJECT_DIR$/src/learn/logger" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/learn/logger/file_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokaka" />
+      <working_directory value="$PROJECT_DIR$/src/learn/logger" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/learn/logger/logger_test.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (4)" />
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (5)" />
-      <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Test.file_test.go" />
+      <item itemvalue="Go Test.TestNewFileLogger in learn/logger" />
+      <item itemvalue="Go Test.TestNewConsoleLogger in learn/logger" />
+      <item itemvalue="Go Test.logger_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Test.logger_test.go" />
+        <item itemvalue="Go Test.TestNewConsoleLogger in learn/logger" />
+        <item itemvalue="Go Test.file_test.go" />
+        <item itemvalue="Go Test.TestNewFileLogger in learn/logger" />
       </list>
     </recent_temporary>
   </component>

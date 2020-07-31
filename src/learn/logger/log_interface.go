@@ -1,6 +1,6 @@
 package logger
 
-type logInterface interface {
+type LogInterface interface {
 	// 定义日志等级
 	SetLevel(level int)
 

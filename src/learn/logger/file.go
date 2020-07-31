@@ -13,7 +13,7 @@ type FileLogger struct {
 	warnFile *os.File
 }
 
-func NewFileLogger(level int, LogPath, LogName string) logInterface {
+func NewFileLogger(level int, LogPath, LogName string) LogInterface {
 	logger := &FileLogger{
 		level:   level,
 		logPath: LogPath,
@@ -50,38 +50,37 @@ func (f *FileLogger) Debug(format string, args ...interface{}) {
 	if f.level > LogLevelDebug {
 		return
 	}
-	fmt.Fprintf(f.file, format, args)
+	waiteLog(f.file, LogLevelDebug, format, args...)
 }
-
 func (f *FileLogger) Trace(format string, args ...interface{}) {
-	if f.level > LogLevelDebug {
+	if f.level > LogLevelTrace {
 		return
 	}
-	fmt.Fprintf(f.file, format, args)
+	waiteLog(f.file, LogLevelTrace, format, args...)
 }
 func (f *FileLogger) Info(format string, args ...interface{}) {
-	if f.level > LogLevelDebug {
+	if f.level > LogLevelInfo {
 		return
 	}
-	fmt.Fprintf(f.file, format, args)
+	waiteLog(f.file, LogLevelInfo, format, args...)
 }
 func (f *FileLogger) Warn(format string, args ...interface{}) {
-	if f.level > LogLevelDebug {
+	if f.level > LogLevelWarn {
 		return
 	}
-	fmt.Fprintf(f.file, format, args)
+	waiteLog(f.warnFile, LogLevelWarn, format, args...)
 }
 func (f *FileLogger) Error(format string, args ...interface{}) {
-	if f.level > LogLevelDebug {
+	if f.level > LogLevelError {
 		return
 	}
-	fmt.Fprintf(f.warnFile, format, args)
+	waiteLog(f.warnFile, LogLevelError, format, args...)
 }
 func (f *FileLogger) Fatal(format string, args ...interface{}) {
-	if f.level > LogLevelDebug {
+	if f.level > LogLevelFatal {
 		return
 	}
-	fmt.Fprintf(f.warnFile, format, args)
+	waiteLog(f.warnFile, LogLevelFatal, format, args...)
 }
 
 func (f *FileLogger) Close() {
